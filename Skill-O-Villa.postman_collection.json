@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "2627898e-fee1-42b1-ac94-4cd857b6644d",
+		"name": "Skill-O-Villa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Course Pricing",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8090/api/course/pricing?courseID=1&countryCode=UK",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"course",
+						"pricing"
+					],
+					"query": [
+						{
+							"key": "courseID",
+							"value": "1"
+						},
+						{
+							"key": "countryCode",
+							"value": "UK"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
